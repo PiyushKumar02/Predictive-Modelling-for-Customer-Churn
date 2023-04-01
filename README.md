@@ -1,15 +1,15 @@
 # Predictive-Modelling-for-Customer-Churn
 The objective of this project is to build a predictive model that can predict customer churn for a given company
 
-REPORT
+## REPORT
 By Piyush Kumar
 DATE: 3rd Feb 2023
 
-**Introduction:
+**Introduction:**
 This assignment aims to build a predictive model that can predict customer churn for a given company
 by training different models and comparing them to choose the best out of them.
 
-**Process:
+**Process:**
 - After importing the data, it is analyzed thoroughly, numerical and categorical features are
 identified and data is looked for missing values and duplicates.
 - Univariate Exploratory Data Analysis is done separately for numerical and categorical features.
@@ -31,7 +31,7 @@ the model at different thresholds.
 - Models are then applied to test data and their generalization is evaluated using the same metrics
 as done with the training. (Some models are also hyperparameter tuned seeing better results)
 
-**Results:
+**Results:**
 The following are the metrics on the test data: (for all the models)
 
 Logistic Regression without treating imbalanced class:
@@ -62,7 +62,7 @@ Recall: 0.8231392778187178
 F1 Score: 0.4805194805194805
 Balanced Accuracy: 0.7707820863377709
 
-**Conclusion:
+**Conclusion:**
 The results of the logistic regression models without treating the imbalanced class and with SMOTE and
 RandomUnderSampler indicate that all models struggle to balance the accuracy and precision, with the
 best results being seen in the SMOTE model with a balanced accuracy of 77.48%.
