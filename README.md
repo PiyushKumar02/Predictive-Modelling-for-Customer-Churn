@@ -2,7 +2,7 @@
 The objective of this project is to build a predictive model that can predict customer churn for a given company
 
 ## REPORT
-By Piyush Kumar
+By Piyush Kumar \n
 DATE: 3rd Feb 2023
 
 **Introduction:**
